@@ -8,6 +8,10 @@ export const HowItWorksContainerDiv = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 0 10%;
+
+    @media screen and (max-width: 768px){
+        height: 100%;
+    }
 `;
 
 export const HowItWorksTitleH1 = styled.h1`
