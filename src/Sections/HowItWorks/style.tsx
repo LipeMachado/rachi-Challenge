@@ -14,6 +14,10 @@ export const HowItWorksTitleH1 = styled.h1`
     margin-top: 40px;
     font-size: 40px;
     font-family: var(--font-sora);
+
+    @media screen and (max-width: 768px){
+        font-size: 30px;
+    }
 `;
 
 export const HowItWorksItensContainerDiv = styled.div`
@@ -41,5 +45,39 @@ export const HowItWorksItensContainerDiv = styled.div`
         width: 300px;
         font-family: var(--font-sora);
         color: var(--gray);
+    }
+
+    @media screen and (max-width: 1100px){
+        padding: 0;
+
+        div {
+            padding: 0 0;
+        }
+
+        img {
+            width: 40px;
+        }
+
+        h3 {
+            font-size: 15px;
+            font-family: var(--font-sora);
+            color: var(--gray200);
+        }
+
+        p {
+            width: 100%;
+            font-size: 12px;
+            font-family: var(--font-sora);
+            color: var(--gray);
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        margin-top: 50px;
+
+        div {
+            margin-bottom: 60px;
+        }
     }
 `;
