@@ -87,9 +87,15 @@ export const ContactContainerEmailDiv = styled.div`
         box-shadow: 1px 3px 4px rgb(19 125 224 / 50%);
         font-weight: 500;
         font-size: 15px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
 
         @media screen and (max-width: 480px){
             width: 100%;
+        }
+
+        &:hover {
+            background-color: var(--blueHover);
         }
     }
 `; 

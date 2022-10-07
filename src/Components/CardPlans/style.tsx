@@ -65,4 +65,11 @@ export const CardPlansButton = styled.button`
     background: var(--blue);
     box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
     border-radius: 50px;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: var(--blueHover);
+    }
 `;

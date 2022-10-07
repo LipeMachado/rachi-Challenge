@@ -45,6 +45,12 @@ export const HeaderRegisterButton = styled.button`
     border-radius: 50px;
     padding: 10px 26px 10px 26px;
     font-family: var(--font-sora);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: var(--blueHover);
+    }
 `;
 
 export const HeaderImageImg = styled.img`

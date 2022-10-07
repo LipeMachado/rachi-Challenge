@@ -36,7 +36,16 @@ export const NavBarLinksDiv = styled.div`
         li {
             color: var(--gray);
             list-style-type: none;
-            margin-left: 60px;
+            margin-left: 30px;
+            padding: 2%;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                color: var(--white);
+                background-color: var(--blueHover);
+            }
         }
     }
 
