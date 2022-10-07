@@ -7,6 +7,10 @@ export const PlansContainerDiv = styled.div`
     display: flex;
     flex-direction: column;
     padding: 0 10%;
+
+    @media screen and (max-width: 780px){
+        height: 100%;
+    }
 `;
 
 export const PlansTextContentDiv = styled.div`
@@ -34,6 +38,10 @@ export const PlansParagraphP = styled.p`
     margin-top: 20px;
     text-align: center;
     width: 520px;
+
+    @media screen and (max-width: 780px){
+        width: 100%;
+    }
 `;
 
 export const PlansContainerCardsDiv = styled.div`
@@ -42,4 +50,8 @@ export const PlansContainerCardsDiv = styled.div`
     align-items: center;
     margin-top: 70px;
     gap: 20px;
+
+    @media screen and (max-width: 780px){
+        flex-direction: column;
+    }
 `;
