@@ -13,6 +13,10 @@ export const NabBarContainerDiv = styled.div`
         width: 100%;
         padding: 1.2% 5%;
     }
+
+    @media screen and (max-width: 768px){
+        padding: 5% 10%;
+    }
 `;
 
 export const NavBarBoxLogoImageDiv = styled.div`
