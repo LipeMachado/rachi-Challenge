@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         --gray: #6E7275;
         --grayLight: #DBDBDB;
         --gray200: #293145;
+        --gray200Opacity: #293145b8;
         --font-sora: 'Sora', sans-serif;
     }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../../Sections/Contact';
 import DownloadApp from '../../Sections/DownloadApp';
 import Header from '../../Sections/Header';
 import HowItWorks from '../../Sections/HowItWorks';
@@ -13,6 +14,7 @@ const HomePage: React.FC = () => {
             <HowItWorks />
             <DownloadApp />
             <Plans />
+            <Contact />
         </>
     );
 }

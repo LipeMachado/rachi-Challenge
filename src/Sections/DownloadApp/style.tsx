@@ -30,6 +30,7 @@ export const DownloadAppParagraphP = styled.p`
     margin-top: 30px;
     font-size: 16px;
     line-height: 25px;
+    color: var(--gray);
 
     @media screen and (max-width: 768px){
         width: 100%;

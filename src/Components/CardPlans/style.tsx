@@ -6,6 +6,7 @@ export const CardPlansContainerDiv = styled.div <{ BackgroundColor: string }> `
     text-align: center;
     width: 280px;
     border-radius: 8px;
+    margin-bottom: 40px;
 `;
 
 export const CardPlansContentDiv = styled.div`

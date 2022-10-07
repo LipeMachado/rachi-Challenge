@@ -38,6 +38,7 @@ export const PlansParagraphP = styled.p`
     margin-top: 20px;
     text-align: center;
     width: 520px;
+    color: var(--grayLight);
 
     @media screen and (max-width: 780px){
         width: 100%;
